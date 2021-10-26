@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <!-- Firebase -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+
+    <script defer src="./init-firebase.js"></script>
+    <title>Music App</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<!-- #0c0f12 -->
+
+<body>
+    <nav>
+        <div class="nav_bar">
+            <div class="nav_icons">
+                <ion-icon name="chevron-back-outline" id="goback" onClick="goBack()"></ion-icon>
+                <ion-icon name="chevron-forward-outline" id="goback" onClick="goForward()"></ion-icon>
+            </div>
+            <h2>Sunapana's Music fest</h2>
+        </div>
+
+        <div class="auth">
+            <button class="signIn" id="signIn">Sign In</button>
+            <button class="signOut">Sign Out</button>
+        </div>
+    </nav>
+
+    <div class="music_container">
+        <div class="music_wrapper">
+
+            <a href="Lofi_page.html" class="lofi_cont_grid" id="lofi_cont_grid">
+                <div class="lofi_img">
+                    <img src="../Images/Title/chill.jpg" alt="">
+                </div>
+                <div class="lofi_cont">
+                    <h2 class="lofi_title">
+                        Lofi Chill</h2>
+                    <ion-icon name="caret-forward-circle-outline" class="icon_play"></ion-icon>
+                </div>
+            </a>
+
+            <a href="Lofi_page.html" class="lofi_cont_grid" id="lofi_cont_grid">
+                <div class="lofi_img">
+                    <img src="../Images/Title/mellow.jpg" alt="">
+                </div>
+                <div class="lofi_cont">
+                    <h2 class="lofi_title">
+                        Mellow Beats</h2>
+                    <ion-icon name="caret-forward-circle-outline" class="icon_play"></ion-icon>
+                </div>
+            </a>
+
+            <a class="lofi_cont_grid" id="lofi_cont_grid" href="Lofi_page.html">
+                <div class="lofi_img">
+                    <img src="../Images//Title/anime.jpg" alt="">
+                </div>
+                <div class="lofi_cont">
+                    <h2 class="lofi_title">
+                        Anime Lofi</h2>
+                    <ion-icon name="caret-forward-circle-outline" class="icon_play"></ion-icon>
+                </div>
+            </a>
+
+            <a href="Lofi_page.html" class="lofi_cont_grid" id="lofi_cont_grid">
+                <div class="lofi_img">
+                    <img src="../Images//Title/coding.jpg" alt="">
+                </div>
+                <div class="lofi_cont">
+                    <h2 class="lofi_title">
+                        Coding Lofi</h2>
+                    <ion-icon name="caret-forward-circle-outline"></ion-icon>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./Javascript/home.js"></script>
+
+</body>
+
+</html>

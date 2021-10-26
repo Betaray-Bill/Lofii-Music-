@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <title>Music App || Lofi</title>
+    <link rel="stylesheet" href="../Style/lofi_style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav_icons">
+            <ion-icon name="chevron-back-outline" id="goback" onClick="goBack()"></ion-icon>
+            <ion-icon name="chevron-forward-outline" id="goback" onClick="goForward()"></ion-icon>
+        </div>
+        <h2>Sunapana's Music fest</h2>
+    </nav>
+    <div class="landing_section">
+        <div class="wrapper">
+            <div class="hero">
+                <div class="hero_bg">
+                    <img src="./Images/Title/mellow.jpg" alt="" id="hero_bg_img">
+                </div>
+                <div class="hero_cont">
+                    <p>PLAYLIST</p>
+                    <h2 class="playlist_title" id="playlist_title">Mellow Songs</h2>
+                    <div class="acc_name">
+                        <img src="https://lh3.googleusercontent.com/-HpXHhwUXCSg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckZQ0hl2SpNlT4E1NFWpciYQnZbmw/photo.jpg?sz=46" class="acc_img" alt="" id="acc_img">
+                        <p>Suryaorion</p> :
+                        <span>5 songs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer"></div>
+
+    <div class="playlist">
+
+        <div id="name"></div>
+        <div class="playlist_section">
+            <div class="playlist_header">
+
+            </div>
+            <div class="playlist_songs" id="playlist_songs">
+
+                <div class="song_wrapper" id="song_wrapper">
+                    <div class="song_section">
+                        <p></p>
+                        <div class="song_img">
+                            <img src="" alt="" class="hidden">
+                        </div>
+                        <div class="song_cont">
+                            <p class="song_name"></p>
+                        </div>
+                    </div>
+                    <audio src="" id="audio"></audio>
+                    <div class="progress_bar" id="progress_bar"></div>
+                    <div class="progress_section">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../Javascript/lofipage.js"></script>
+</body>
+
+</html>

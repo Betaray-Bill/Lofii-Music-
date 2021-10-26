@@ -1,0 +1,31 @@
+[{
+    "title": "Mellow Lofi",
+    "bg": "../Images/Title/mellow.jpg",
+    "desc": "Chill Lofi will make your day",
+    "lofi_songs": [{
+            "song_title": "Homework",
+            "audio": "../musics/Mellow/Homework.mp3",
+            "song_img": "https://wallpapers.com/images/featured/hbeejyqka3ckh1kg.jpg"
+        },
+        {
+            "song_title": "Mellow Thoughts",
+            "audio": "../musics/Mellow/Mellow_Thoughts",
+            "song_img": "../Images/Chill_songs/hey.jpg"
+        },
+        {
+            "song_title": "Blue Bird",
+            "audio": "../musics/Anime/Blue Bird.mp3",
+            "song_img": "../Images/Chill_songs/hey.jpg"
+        },
+        {
+            "song_title": "ukele",
+            "audio": "../musics/Anime/Eternal Youth.mp3",
+            "song_img": "../Images/Chill_songs/hey.jpg"
+        },
+        {
+            "song_title": "ukele",
+            "audio": "../musics/Anime/Eternal Youth.mp3",
+            "song_img": "../Images/Chill_songs/hey.jpg"
+        }
+    ]
+}]
